@@ -1,0 +1,178 @@
+.launchpad-container {
+    position: fixed;
+    left: -105%;
+
+    top: calc(50vh - 1000px);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(40, 40, 40, 0.5);
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+
+    
+
+}
+
+.fullscreen {
+    position: fixed;
+  
+  
+    
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    background-color: rgba(40, 40, 40);
+}
+.magnifyingglassIcon {
+    width: 11px;
+    position: fixed;
+    height: 11.1px;
+    z-index: 999;
+}
+.search {
+    position: relative;
+    z-index: 999;
+    color: rgba(60, 60, 67);
+}
+.placeholder {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.textFields {
+    position: absolute;
+    top: 27.5px;
+    left: 407.5px;
+    border-radius: 6px;
+    border: 3.5px solid rgba(58, 108, 217, 0.5);
+    box-sizing: border-box;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 6px;
+}
+.electron1Icon {
+    position: absolute;
+    top: 131px;
+    left: 128px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.blenderIcon1 {
+    position: absolute;
+    top: 131px;
+    left: 342px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.rekordbox1Icon {
+    position: absolute;
+    top: 138px;
+    left: 578px;
+    border-radius: 10px;
+    width: 56px;
+    height: 58px;
+    object-fit: cover;
+}
+.vscode1Icon {
+    position: absolute;
+    top: 300px;
+    left: 128px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.vectorIcon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    opacity: 0;
+}
+.github2Icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.frame {
+    position: absolute;
+    top: 300px;
+    left: 779px;
+    width: 69px;
+    height: 71px;
+    overflow: hidden;
+}
+.xcode1Icon {
+    position: absolute;
+    top: 295px;
+    left: 342px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.swift1Icon {
+    position: absolute;
+    top: 300px;
+    left: 571px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.abletonlive1Icon {
+    position: absolute;
+    top: 453px;
+    left: 571px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.flstudio1Icon {
+    position: absolute;
+    top: 453px;
+    left: 342px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.spline1Icon {
+    position: absolute;
+    top: 131px;
+    left: 779px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+.unrealicon1 {
+    position: absolute;
+    top: 453px;
+    left: 128px;
+    width: 69px;
+    height: 71px;
+    object-fit: cover;
+}
+
+

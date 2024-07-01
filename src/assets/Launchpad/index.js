@@ -1,0 +1,12 @@
+export { default as abletonlive } from './abletonlive.png';
+export { default as blender_icon} from './blender_icon.png';
+export { default as electron } from './electron.png';
+export { default as flstudio } from './flstudio.png';
+export { default as github } from './github.png';
+export { default as rekord } from './rekord.png';
+export { default as swift } from './swift.png';
+export { default as unrealicon } from './unrealicon.png';
+export { default as VsCode } from './VsCode.png';
+export { default as xcode } from './xcode.png';
+export { default as spline } from './spline.png';
+export { default as magnifyingglass } from './magnifyingglass.png';

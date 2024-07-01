@@ -1,0 +1,84 @@
+.dock-container {
+    display: flex;
+    gap: 5px;
+   
+    bottom: 10px;
+    left: calc(50vw - 150px);
+    position: absolute;
+   
+    background-color: rgba(121, 114, 114, 0.5);
+    border-radius: 16px;
+    padding:   0.5rem;
+    backdrop-filter: blur(15px);
+    .dock-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        transition: 0.15s all ease-in-out;
+        .tool-tip{
+          
+            display: none;
+
+            p{
+                margin: 0;
+                color: #fff;
+                font-size: 18px;
+                letter-spacing: 0.05em;
+
+            }
+        }
+
+    
+        
+        .image-wrapper{
+            height: 2.5rem;
+            transition: 0.15s all ease-in-out;
+            &:hover{
+                height: 3rem;}
+        }
+    }
+
+}   
+
+        .dock-item:hover{
+            margin-top: -28px;
+
+
+            .tool-tip{
+            display: flex;
+            position: absolute;
+            top: -62px;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 0.8rem;
+            border-radius: 8px;
+            backdrop-filter: blur(15px);
+            transition: 0.2s all ease-in-out;
+        }
+
+
+    }
+
+    .bookfront-display {
+        position: fixed;  // Example: fixed to overlay on the screen
+        left: calc(50vw - 330px);
+        top: calc(80vh - 880px);
+        width: 47vw;
+        transform: translate(-50%, -50%);
+        z-index: 10;  // Ensure it's above other content
+        opacity: 90%;
+    }
+    
+    @media (max-width: 600px) {
+        .dock-container {
+            padding: 0.2rem;
+        }
+
+        .dock-item {
+            height: 2rem;
+        }
+    }

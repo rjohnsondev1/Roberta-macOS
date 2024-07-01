@@ -1,0 +1,94 @@
+.group-leading {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 4px;
+    color: #ffffff;
+  }
+  .menu-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(147, 157, 157, 1.5);
+    backdrop-filter: blur(50px);
+    width: 100%;
+    height: 24px;
+    mix-blend-mode: normal;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    font-family: 'SF Pro';
+  }
+  .apple-logo {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 11px;
+    font-size: 16.3px;
+    color: #ffffff;
+  }
+  .apple-logo1 {
+      position: relative;
+      line-height: 20px;
+  }
+  
+  .app-name {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 11px;
+    margin-left: -4px;
+  }
+  .app-name1 {
+    position: relative;
+    line-height: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .menu-label {
+    position: relative;
+    line-height: 16px;
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .frame-trailing {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .menu-item-trailing {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 11px;
+  }
+  
+  .menu-label10 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: pre-wrap;
+  }
